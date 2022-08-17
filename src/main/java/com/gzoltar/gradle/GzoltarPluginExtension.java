@@ -7,4 +7,5 @@ public class GzoltarPluginExtension {
   public String outFile = null;
   public String includes = "*";
   public String excludes = "";
+  public String flitsr = "flitsr";
 }

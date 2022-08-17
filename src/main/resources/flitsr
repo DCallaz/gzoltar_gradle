@@ -1,2 +1,3 @@
 #!/bin/bash
-python3 ./flitsr.py "$@"
+flitsr=$FLITSR_HOME
+python3 $flitsr/flitsr.py "$@"

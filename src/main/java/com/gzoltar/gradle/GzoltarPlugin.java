@@ -207,7 +207,7 @@ public class GzoltarPlugin implements Plugin<Project> {
             @Override
             public void execute(Task s) {
               ArrayList<String> args = new ArrayList<String>();
-              args.add("flitsr");
+              args.add(extension.flitsr);
               args.add(buildDir+"/sfl/txt");
               try {
                 runSeperateProg(args, extension.outFile);
